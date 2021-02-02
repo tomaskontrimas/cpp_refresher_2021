@@ -16,11 +16,13 @@ This is the code for a 8 day C++ refresher course including concurrency with std
 # Getting Started
 This project uses googletest as a submodule, so make sure to clone recursively.
 
->$ git clone --recurse-submodules git@github.com:icecube/cpp_refresher_2021.git<br>
->$ cd cpp_refresher_2021<br>
->$ mkdir build<br>
->$ cd build<br>
->$ cmake ..<br>
->$ make<br>
->$ ctest<br>
+```bash
+$ git clone --recurse-submodules git@github.com:icecube/cpp_refresher_2021.git<br>
+$ cd cpp_refresher_2021<br>
+$ mkdir build<br>
+$ cd build<br>
+$ cmake ..<br>
+$ make<br>
+$ ctest<br>
+```
 
