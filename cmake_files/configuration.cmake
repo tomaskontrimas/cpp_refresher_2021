@@ -2,9 +2,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_BUILD_TYPE DEBUG)
 
-find_package(Boost REQUIRED)
-
-include_directories(${Boost_INCLUDE_DIRS})
 include_directories(${CMAKE_SOURCE_DIRECTORY}/include)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
