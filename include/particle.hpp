@@ -1,8 +1,20 @@
+#include <vector>
 
 enum class ParticleType{electron};
 
-class Position{};
-class Direction{};
+struct Position
+{
+  double x;
+  double y;
+  double z;
+};
+
+struct Direction
+{
+  double x;
+  double y;
+  double z;
+};
 
 class Particle{
 public:
